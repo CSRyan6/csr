@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>logininterface</class>
+ <widget class="QWidget" name="logininterface">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>462</width>
+    <height>376</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget#logininterface
+{	
+	
+	/*background-image: url(:/resource/2.jpg);*/
+	/*background-image: url(:/resource/1.jpg);*/
+}</string>
+  </property>
+  <widget class="QLineEdit" name="id">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>50</y>
+     <width>361</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 14pt &quot;华文楷体&quot;;
+background-color: rgb(255, 255, 255, 120);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string>帐号</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="password">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>130</y>
+     <width>361</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 14pt &quot;华文楷体&quot;;
+background-color: rgb(255, 255, 255, 120);</string>
+   </property>
+   <property name="placeholderText">
+    <string>密码</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="login">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>260</y>
+     <width>361</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 14pt &quot;华文楷体&quot;;
+background-color: rgb(255, 255, 255, 150);
+border-color: rgb(255, 255, 255,255);
+</string>
+   </property>
+   <property name="text">
+    <string>登录</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="findback">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>200</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 14pt &quot;华文楷体&quot;;
+background-color: rgb(255, 255, 255, 120);
+border-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>找回密码</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="remember">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>200</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 14pt &quot;华文楷体&quot;;
+background-color: rgb(255, 255, 255, 80);</string>
+   </property>
+   <property name="text">
+    <string>记住密码</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>462</width>
+     <height>376</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/resource/1.jpg);</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="registe">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>200</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 14pt &quot;华文楷体&quot;;
+background-color: rgb(255, 255, 255, 120);
+border-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>注册账号</string>
+   </property>
+  </widget>
+  <zorder>widget</zorder>
+  <zorder>id</zorder>
+  <zorder>password</zorder>
+  <zorder>login</zorder>
+  <zorder>findback</zorder>
+  <zorder>remember</zorder>
+  <zorder>registe</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
