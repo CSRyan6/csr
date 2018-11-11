@@ -56,16 +56,16 @@ logininterface::logininterface(QWidget *parent) :
         qDebug() << sql_query.value(0).toString();
     }
 
-    QString clear_sql = "delete from user";
-    sql_query.prepare(clear_sql);
-    if(!sql_query.exec())
-    {
-        qDebug() << sql_query.lastError();
-    }
-    else
-    {
-        qDebug() << "table cleared";
-    }
+//    QString clear_sql = "delete from user";
+//    sql_query.prepare(clear_sql);
+//    if(!sql_query.exec())
+//    {
+//        qDebug() << sql_query.lastError();
+//    }
+//    else
+//    {
+//        qDebug() << "table cleared";
+//    }
 }
 
 logininterface::~logininterface()

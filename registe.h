@@ -6,6 +6,7 @@
 #include <QtSql/QSqlError>
 #include <QtSql/QSqlQuery>
 #include <QDebug>
+#include <QMessageBox>
 
 extern QSqlDatabase database;
 
